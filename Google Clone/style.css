@@ -1,0 +1,57 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    margin-top: 50px;
+}
+button{
+    margin-right: 8px;
+    padding: 10px 14px;
+    border:none;
+    border-radius: 5px;
+}
+button:hover{
+    border:1px solid rgb(196, 194, 194);
+    box-shadow : 0 1px 1px rgba(0,0,0,0.1);
+}
+input{
+    border-radius:20px;
+    border:1px solid  rgb(196, 194, 194);
+
+}
+input:hover{
+    border:1px solid rgb(196, 194, 194);
+    box-shadow : 0 1px 10px rgba(0,0,0,0.1);
+}
+input:focus{
+ border:none;
+}
+#search{
+    position:relative;
+    left:30px;
+    top:2px;
+}
+#mic{
+    position:relative;
+    right:70px;
+    top:2px;
+}
+#lens
+    {
+        position:relative;
+        right:60px;
+        top:2px;
+    
+}
+#share{
+    position: relative;
+    border: 0.5px solid black;
+    padding: 2px;
+    border-radius: 50%;
+    bottom: 50px;
+
+}
